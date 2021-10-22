@@ -7,6 +7,7 @@ import { MenuItem } from './menuItem/menuItem.component';
 import { ContentComponent } from './content/content.component';
 import { WaningAlertComponent } from './waning-alert/waning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
     MenuItem,
     ContentComponent,
     WaningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    WarningAlertComponent
   ],
   imports: [
     BrowserModule
