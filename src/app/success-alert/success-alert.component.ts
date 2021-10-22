@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
     .alert {
       font-weight: bold;
+      border: 1px solid green;
     }
   `]
 })
