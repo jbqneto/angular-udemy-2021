@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { MenuItem } from './menuItem/menuItem.component';
 import { ContentComponent } from './content/content.component';
-import { WaningAlertComponent } from './waning-alert/waning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 
@@ -15,7 +14,6 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
     MenuComponent,
     MenuItem,
     ContentComponent,
-    WaningAlertComponent,
     SuccessAlertComponent,
     WarningAlertComponent
   ],
