@@ -20,7 +20,6 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
   ],
   imports: [
     BrowserModule,
-    NgModule,
     FormsModule
   ],
   providers: [],

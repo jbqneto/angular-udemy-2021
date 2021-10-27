@@ -1,0 +1,15 @@
+input {
+  border: 1px solid #010101;
+  padding: 0.2rem;
+}
+
+button {
+  padding: 1rem;
+  border: 1px steelblue;
+  background-color: teal;
+  color: aliceblue;
+}
+
+button:disabled {
+  background-color: gray;
+}
