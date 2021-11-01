@@ -13,4 +13,22 @@
         </button>
       </div>
     </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Task 3</h1>
+        <hr>
+        <button (click)="toggleDisplay()" class="btn btn-secondary">
+          Display details
+        </button>
+        <p *ngIf="isDisplaying">
+          Secret password='tuna'
+        </p>
+        <ul>
+          <li *ngFor="let log of displayLogs; index as i"
+          [ngStyle]="{backgroundColor: colorLog(i)}" 
+          [ngClass]="getItemClass(i)"
+          >{{log}}</li>
+        </ul>
+      </div>
+    </div>
 </div>
