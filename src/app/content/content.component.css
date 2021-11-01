@@ -13,3 +13,7 @@ button {
 button:disabled {
   background-color: gray;
 }
+
+.special-item {
+  color: whitesmoke;
+}
